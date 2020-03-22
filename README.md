@@ -9,3 +9,11 @@ A recordset is an ordered collection of records of the same model. Trying to rea
 on multiple ids recordset will raise an error. Because PyDev.Debugger recognizes a recordset as a
 non-collection object so the error will be raise when evaluating its attributes. This plugin helps
 PyDev.Debugger correctly evaluate an multiple ids recordset.
+
+## Installation
+Install this plugin to the python environment in which the debugger runs.
+
+`pip install pydevd-odoo`
+
+## Screenshot
+![PyCharm Debugger](https://raw.githubusercontent.com/trinhanhngoc/pydevd-odoo/master/images/pycharm-debugger.png)
