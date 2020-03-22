@@ -1,8 +1,7 @@
 # pydevd-odoo
 
 [PyDev.Debugger](https://github.com/fabioz/PyDev.Debugger) is the Python debugger used
-in PyDev, PyCharm, VSCode. This plugin makes the debugger better for Odoo
-development.
+in PyDev, PyCharm, VSCode. This plugin aims to make the debugger works better for Odoo.
 
 ## Odoo Recordset
 [Recordsets](https://www.odoo.com/documentation/13.0/reference/orm.html#recordsets) is a fundamental concept in Odoo.
