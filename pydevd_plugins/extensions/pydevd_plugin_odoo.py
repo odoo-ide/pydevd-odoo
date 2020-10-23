@@ -30,7 +30,7 @@ class OdooRecordSetProvider(object):
         return defaultResolver.get_dictionary(obj)
 
     def get_str(self, val):
-        s = str(val.ids)
+        s = str(val)
         if len(val) == 1:
             name = getattr(val, 'name', None)
             if name:
