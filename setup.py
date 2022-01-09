@@ -4,7 +4,7 @@ setup(
     name='pydevd-odoo',
     version='1.1',
     description='PyDev.Debugger plugin for Odoo',
-    url='https://github.com/trinhanhngoc/pydevd-odoo',
+    url='https://github.com/odoo-ide/pydevd-odoo',
     author='Trinh Anh Ngoc',
     author_email='atw1990@gmail.com',
     packages=find_packages(),
