@@ -7,10 +7,24 @@ from _pydevd_bundle.pydevd_resolver import defaultResolver
 
 class OdooRecordSetProvider(object):
     def can_provide(self, type_object, type_name):
+        if self._is_odoo_type_object(type_object):
+            return True
+        if self._is_flectra_type_object(type_object):
+            return True
+        return False
+
+    def _is_odoo_type_object(self, type_object):
         try:
             from odoo import models
-            return isinstance(type_object, models.MetaModel)
-        except:
+            return issubclass(type_object, models.BaseModel)
+        except ImportError:
+            return False
+
+    def _is_flectra_type_object(self, type_object):
+        try:
+            from flectra import models
+            return issubclass(type_object, models.BaseModel)
+        except ImportError:
             return False
 
     def resolve(self, obj, attr):
