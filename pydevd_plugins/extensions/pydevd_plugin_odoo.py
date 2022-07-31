@@ -46,9 +46,11 @@ class OdooRecordSetProvider(object):
     def get_str(self, val):
         s = str(val)
         if len(val) == 1:
-            name = getattr(val, 'name', None)
-            if name:
-                s += ' ⇨ %s' % name
+            fname = getattr(val, '_rec_name', None)
+            if fname:
+                name = getattr(val, fname, None)
+                if name:
+                    s += ' ⇨ %s' % name
         return s
 
 
