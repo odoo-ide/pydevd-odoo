@@ -15,5 +15,8 @@ Install this plugin to the python environment in which the debugger runs.
 
 `pip install pydevd-odoo`
 
-## Screenshot
-![PyCharm Debugger](https://raw.githubusercontent.com/trinhanhngoc/pydevd-odoo/master/images/pycharm-debugger.png)
+## Screenshots
+### PyCharm Debugger without this plugin
+![PyCharm Debugger without pydevd-odoo](images/without-pydevd-odoo.png)
+### PyCharm Debugger with this plugin
+![PyCharm Debugger with pydevd-odoo](images/with-pydevd-odoo.png)
