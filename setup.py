@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pydevd-odoo',
-    version='1.1',
+    version='1.2',
     description='PyDev.Debugger plugin for Odoo',
     url='https://github.com/odoo-ide/pydevd-odoo',
     author='Trinh Anh Ngoc',
