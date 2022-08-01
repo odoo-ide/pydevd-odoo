@@ -10,7 +10,7 @@ authors = [
 ]
 description = "PyDev.Debugger plugin for Odoo"
 readme = "README.md"
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 
 [project.urls]
 "Homepage" = "https://github.com/odoo-ide/pydevd-odoo"
