@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydevd-odoo"
+version = "1.2"
+authors = [
+    { name = "Trinh Anh Ngoc", email = "atw1990@gmail.com" },
+]
+description = "PyDev.Debugger plugin for Odoo"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/odoo-ide/pydevd-odoo"
+"Bug Tracker" = "https://github.com/odoo-ide/pydevd-odoo/issues"
